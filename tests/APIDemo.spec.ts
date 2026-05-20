@@ -9,7 +9,7 @@ test('Get request example', async ({ playwright }) => {
   console.log(await response.json());
   console.log(response.status());
 
-  expect(response.status()).toBe(200);
+  expect(response.status()).toBe(201);
 
   await request.dispose();
 });
