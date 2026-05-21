@@ -13,6 +13,7 @@
     "@types/node": "^25.8.0"
   },
   "dependencies": {
+    "@playwright/cli": "^0.1.13",
     "csv-parse": "^6.2.1"
   }
 }
